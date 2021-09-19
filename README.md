@@ -1,5 +1,5 @@
 <p align="center"> 
-  <img src="assets/thumbnail.png" alt="Breakout Logo" width="150px" height="150px">
+  <img src="assets/thumbnail.png" alt="Breakout Logo" width="600px" height="300px">
 </p>
 <h1 align="center"> Breakout Game </h1>
 <h3 align="center"> Beta Version </h3>
