@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Carter One', cursive;
+    overflow: hidden;
+}
+.container {
+    height: 100vh;
+    position: relative;
+    background-image: url("./assets/images/background4.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 3%; */
+
+
+}
+.left-box {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    color: #fff;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0,000,0,0.3),rgba(0,000,0,0.3));
+}
+@media only screen and(max-width: 720px) {
+    .container {
+        flex-direction: column;
+    }
+}
+.left {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#canvas {
+    background-image: linear-gradient(rgba(67, 72, 66,0.1),rgba(67, 72, 66,0.1));
+    backdrop-filter: blur(2px);
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    border-bottom: 10px solid #000;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+.menu {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0,000,0,0.1),rgba(0,000,0,0.1));
+}
+.game-logo {
+    position: absolute;
+    top: 15%;
+}
+.beta{
+    align-self: flex-end;
+    font-size: x-small;
+    padding: 2px 20px;
+    margin: 5px 0;
+    color: #fff;
+    transition: all 0.5s 0s ease;
+    z-index: 1;
+    user-select: none;
+}
+.buttonn {
+    width: 90%;
+    padding: 2px 20px;
+    margin: 5px 0;
+    color: #000;
+    text-decoration: none;
+    cursor: default;
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.1),rgba(255, 255, 255,0.6));
+    text-align: end;
+    transition: all 0.5s 0s ease;
+    z-index: 1;
+    user-select: none;
+}
+.buttonn:hover {
+    transform: scale(1.1);
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.1),rgba(255, 255, 255,0.9));
+}
+.info {
+    padding-top: 50px;
+    display: flex;
+    color: #fff;
+}
+.ns-logo {
+    padding: 0 10px;
+}
+.mayur {
+    font-size: smaller;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.mayur a {
+    color: #e58e3d;
+
+    text-decoration: none;
+
+}

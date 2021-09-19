@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breakout Game by Mayur Bahuguna</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap" rel="stylesheet">
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: 'Carter One', cursive;
+    overflow: hidden;
+    }
+    body{
+        width: 100vh;
+        height: 100vh;
+        background-image: url('./assets/images/background4.jpg');
+        background-size: cover;
+    }
+    .menu {
+    width: 50%;
+    height: 100%;
+    padding: 0 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0,000,0,0.3),rgba(0,000,0,0.5));
+}
+.game-logo {
+    position: absolute;
+    top: 15%;
+}
+.buttonn {
+    width: 100%;
+    padding: 2px 20px;
+    padding-right: 50px;
+    text-decoration: none;
+    cursor: default;
+    margin: 5px 0;
+    color: #000;
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.1),rgba(255, 255, 255,0.6));
+    text-align: end;
+    transition: all 0.5s 0s ease;
+    z-index: 1;
+    user-select: none;
+}
+.buttonn:hover {
+    transform: scale(1.1);
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.1),rgba(255, 255, 255,0.9));
+}
+.info {
+    padding-top: 50px;
+    display: flex;
+    color: #fff;
+}
+.ns-logo {
+    padding: 0 10px;
+}
+.mayur {
+    font-size: smaller;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.mayur a {
+    color: #e58e3d;
+
+    text-decoration: none;
+
+}
+</style>
+<body>
+    <div class="menu">
+        <div style="height: 30%;"></div>
+        <img class="game-logo" src="./assets/logo/logo.png" width="300px">
+    <a id="button" class="buttonn" href="game.html">Start Game</a>
+    <div class="buttonn" onclick="exitGame()">Exit Game</div>
+    <p id="score"></p>
+    <div class="info">
+    <img class="ns-logo"id="img" src="./assets/images/ball.png" width="30px"> <p>  JS Mini Project</p>
+    </div>
+    <p style="color: #fff;font-size: x-small;">by</p>
+    <div class="mayur">
+        <div>
+            ~ Mayur Bahuguna</div>
+    <div style="padding-left: 10px;">
+    <a href="https://complexfoundation.com/mayurPortfolio/">Portfolio</a></div>
+    </div>
+    </div>
+</body>
+</html>

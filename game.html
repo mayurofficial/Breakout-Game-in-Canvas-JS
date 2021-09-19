@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Breakout Game</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="left-box">
+                <div> Score: <span style="display: inline;" id="game-data"></span> </div>
+                <div style="margin-top: 20%; color: #e58e3d">How To Play</div>
+                <div>Use Left & Right Arrows Keys</div>
+            </div>
+        <div class="left">
+            
+        <canvas id="canvas"></canvas>
+        </div>
+        <div class="menu">
+            <div style="height: 40%;"></div>
+            <img class="game-logo" src="./assets/logo/logo.png" width="300px">
+        <div class="beta">Beta Version 12.LPA</div>
+        <div id="button" class="buttonn" onclick="startGame()">Start Game</div>
+        <a class="buttonn" href="index.html">Exit Game</a>
+        <p id="score"></p>
+        <div class="info">
+        <img class="ns-logo"id="img" src="./assets/images/ball.png" width="30px"> <p>  JS Mini Project</p>
+        </div>
+        <p style="color: #fff;font-size: x-small;">by</p>
+        <div class="mayur">
+            <div>
+                ~ Mayur Bahuguna</div>
+        <div style="padding-left: 10px;">
+        <a href="https://complexfoundation.com/mayurPortfolio/">Portfolio</a></div>
+        </div>
+        </div>
+    </div>
+       
+    <script src="script.js"></script>
+    </body>
+</html>
+
+
+<!-- What i learned 
+1. How to draw rectangles and circles in canvas
+2. getContext('2d')
+
+-->
